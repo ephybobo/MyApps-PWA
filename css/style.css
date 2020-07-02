@@ -1,0 +1,166 @@
+
+/*==================================
+            General
+====================================*/
+* {
+  box-sizing      : border-box;
+}
+
+body {
+  margin          : 0;
+  font-family     : "Lucida Grande";
+}
+
+a {
+  text-decoration : none;
+}
+
+.container {
+  max-width       : 1170px;
+  padding         : 0 15px;
+  margin          : 0 auto;
+}
+
+.clear {
+  clear           : left;
+}
+
+/*==================================
+            BAGIAN UTAMA
+====================================*/
+.top-wrapper {
+  padding         : 130px 0 100px 0;
+  background-size : cover;
+  color           : black;
+  text-align      : center;
+}
+
+.utama {
+  width           : 500px;
+  height          : 400px;
+  margin-top      : -60px;
+}
+
+.about {
+  width           : 300px;
+  height          : 400px;
+}
+
+/*==================================
+            BAGIAN EXTRA 1
+====================================*/
+.lesson-wrapper {
+  padding-bottom  : 50px;
+  padding-left    : 5%;
+  padding-right   : 5%;
+  text-align      : center;
+}
+
+.heading {
+  padding-top     : 50px;
+  padding-bottom  : 50px;
+  color           : #5f5d60;
+}
+
+.lesson {
+  float           : left;
+  width           : 20%;
+}
+
+.lesson-icon {
+  position        : relative;
+}
+
+.lesson-icon p {
+  position        : absolute;
+  top             : 40%;
+  width           : 100%;
+  color           : white;
+}
+
+.text-contents {
+  width           : 80%;
+  display         : inline-block;
+  margin-top      : 15px;
+  font-size       : 15px;
+  color           : #b3aeb5;
+}
+
+/*==================================
+            FOOTER
+====================================*/
+.container-foo {
+  padding         : 1px 15px 1px 35px;
+  background-color: rgba(34, 86, 146, 0.9);
+  margin          : 0 auto;
+}
+
+footer img {
+  float           : right;
+  padding-top     : 15px;
+  width           : 100px;
+  height          : 100px;
+}
+
+footer h1 {
+  font-size       : 20px;
+  color           : #fff;
+}
+footer p {
+  color           : #fff;
+  font-size       : 12px;
+}
+
+/*==================================
+            For Smartphone
+====================================*/
+  
+  @media screen and (max-width: 400px) {
+  
+    /* BAGIAN UTAMA */
+    .top-wrapper h3 {
+      font-size       : 28px;
+      line-height     : 32px;
+    }
+  
+    .top-wrapper h4 {
+      font-size       : 18px;
+      line-height     : 18px;
+    }
+  
+    .utama {
+      margin-top      : -25px;
+      width           : 200px;
+      height          : 300px;
+    }
+
+    .about {
+      width           : 230px;
+      height          : 300px;
+    }    
+  
+    
+    /* BAGIAN EXTRA 1 */
+    .lesson {
+      width           : 100%;
+    }
+  
+    /* BAGIAN EXTRA 2 */
+    .sertif {
+      width           : 400px;
+      height          : 300pxs;
+    }
+  
+    /* FOOTER */
+    footer img {
+      padding-top     : 25px;
+      width           : 100px;
+    }
+  
+    footer h1 {
+      font-size       : 15px;
+    }
+    footer p {
+      font-size       : 10px;
+    }
+  }

@@ -1,0 +1,16 @@
+{
+    "name": "My Apps-PWA",
+    "short_name": "My Apps",
+    "description": "Aplikasi PWA pertama saya",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#4285f4",
+    "theme_color": "#4285f4",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
